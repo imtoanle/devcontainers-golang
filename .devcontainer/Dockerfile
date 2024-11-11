@@ -1,4 +1,4 @@
-ARG VARIANT=1.22-bookworm
+ARG VARIANT="1.22-bookworm"
 FROM golang:${VARIANT}
 
 RUN apt-get update && apt-get install -y lsb-release
