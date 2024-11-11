@@ -1,5 +1,4 @@
-ARG VARIANT="1.22-bookworm"
-FROM golang:${VARIANT}
+FROM golang:1.22-bookworm
 
 RUN apt-get update && apt-get install -y lsb-release
 # Install psql 16
